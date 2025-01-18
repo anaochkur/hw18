@@ -24,6 +24,7 @@ body {
   text-decoration: none;
   color: #000000;
   padding: 10px;
+  text-transform: uppercase;
 }
 .header .nav a:hover {
   text-decoration: underline;
