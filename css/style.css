@@ -1,0 +1,76 @@
+.header {
+  background-color: #f8f8f8;
+  padding: 20px 0;
+}
+.header .container {
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .logo {
+  width: 150px;
+}
+.header .nav {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+.header .nav a {
+  text-decoration: none;
+  color: #3498db;
+  padding: 10px;
+  transition: color 0.3s;
+}
+.header .nav a:hover {
+  color: #1d6fa5;
+}
+
+.screen {
+  position: relative;
+  width: 100%;
+}
+.screen .image-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.screen .image-container img {
+  width: 100%;
+  height: auto;
+}
+.screen .image-container .overlay-text {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 770px;
+  color: white;
+  font-size: 36px;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+}
+
+@media (max-width: 1440px) {
+  .header .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .nav {
+    width: auto;
+  }
+}
+@media (max-width: 768px) {
+  .header .container {
+    flex-direction: column;
+  }
+  .nav {
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .nav a {
+    padding: 10px 5px;
+  }
+}/*# sourceMappingURL=style.css.map */
