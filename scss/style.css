@@ -44,7 +44,7 @@ body {
 }
 .screen .image-container .overlay-text {
   position: absolute;
-  top: 20px;
+  top: 60px;
   width: 770px;
   font-size: 48px;
   text-align: left;
