@@ -101,6 +101,10 @@ body {
   margin: 0 auto;
   padding: 20px 0;
 }
+.post .title {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 400;
+}
 .post .flex-container {
   display: flex;
   justify-content: space-between;
@@ -135,11 +139,11 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.post .flex-container .item .content .title2 {
+.post .flex-container .item .content .info-block .title2 {
   font-size: 23px;
   font-weight: 500;
 }
-.post .flex-container .item .content .subtitle, .post .flex-container .item .content .date, .post .flex-container .item .content .text {
+.post .flex-container .item .content .info-block .subtitle, .post .flex-container .item .content .info-block .date, .post .flex-container .item .content .info-block .text {
   color: #7b7b7b;
   font-weight: 400;
 }

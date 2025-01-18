@@ -110,6 +110,10 @@ body{
     width: 1170px;
     margin: 0 auto;
     padding: 20px 0;
+    .title{
+        font-family: $font-family-title;
+        font-weight: 400;
+      }
   
     .flex-container {
       @include flex(space-between,center);
@@ -139,16 +143,17 @@ body{
   
         .info-block{
             @include flex(space-between,center);
+            .title2{
+                font-size: 23px;
+                font-weight: 500;
+            }
+            .subtitle, .date, .text{
+                color: #7b7b7b;
+                font-weight: 400;
+            }
         }
   
-          .title2{
-            font-size: 23px;
-            font-weight: 500;
-        }
-        .subtitle, .date, .text{
-            color: #7b7b7b;
-            font-weight: 400;
-        }
+         
         }
       }
     }
